@@ -1,0 +1,223 @@
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('fonts/OpenSans-Regular-webfont.eot');
+    src: url('fonts/OpenSans-Regular-webfontd41d.eot?#iefix') format('embedded-opentype'),
+         url('fonts/OpenSans-Regular-webfont.woff') format('woff'),
+         url('fonts/OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('fonts/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'museo500';
+    src: url('fonts/museo500-regular_1-webfont.eot');
+    src: url('fonts/museo500-regular_1-webfontd41d.eot?#iefix') format('embedded-opentype'),
+         url('fonts/museo500-regular_1-webfont.woff') format('woff'),
+         url('fonts/museo500-regular_1-webfont.ttf') format('truetype'),
+         url('fonts/museo500-regular_1-webfont.svg#museo500') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+} 
+
+.whatsapp_icon img {
+  	float: none !important;
+    margin-top: -14px !important;
+    margin-left: 6px !important;
+}
+ 
+body {font-family: 'open_sansregular'; font-size: 14px; line-height: 26px; color: #000000;}
+.topPan{ border-top: 5px solid #83bf2e;}
+.logo { position: absolute; top:-10px;}
+.navbar-brand {height: auto; padding: 0;}
+.solink {margin: 10px 15px 0 0; width: 25%; float: right; font-size: 13px; font-family:'open_sansregular';}
+.solink a { float: right; padding: 0 7px 0 7px !important; color: #0241b8;}
+.simFltLeft {float: left; margin: 0 10px 0 0; margin-bottom: 20px;}
+.simFltRight {float: right; margin: 10px 0 0 20px;}
+.navbar {padding: 35px 0 0 0; }
+.navbar-collapse {padding: 0;}
+.container-fluid {padding: 0;} 
+.header { float: left; width: 100%; background: url(../images/background.jpg) no-repeat center top #ebebeb; }
+.bannerCon {padding: 1.282051282051282%; background: url(../images/bannerbg.png) repeat left top; margin: 25px 0 9px 0;}
+.bannerCon img {width: 100%; height: auto;} 
+/* Carousel base class */
+.carousel {}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption { z-index: 10;}
+/* Declare heights because of positioning of img element */
+.carousel .item {padding-top: 40%; background-color: #fff;}
+.carousel-inner > .item > img {position: absolute; top: 0; left: 0; min-width: 100%; }
+.carousel-control .glyphicon-chevron-left{background: url(../images/bannerLeftArrow.png) no-repeat; width:40%; height:18%; background-size: 100% 100%; left:-35px;}
+.carousel-control .glyphicon-chevron-right{background:url(../images/bannerRightArrow.png) no-repeat;  width:40%; height:18%; background-size: 100% 100%; right:-35px;}
+/* Carousel base class */
+.carousel-control.left {background-image: none;}
+.carousel-control.right {background-image: none;}
+.carousel-control {opacity: 100;} 
+.carousel-control:hover, .carousel-control:focus {opacity: 100 !important}
+
+.prothCon {background: url(../images/probg.png) repeat left top; padding: 1.282051282051282% 30px; } 
+.thumbnail { position:relative; overflow:hidden;  padding-bottom: 5px; margin: 0; border: none; border-radius: 0px; }
+.caption { position:absolute; top:0; right:0;  background:rgba(104, 182, 11, 0.75); width:100%; height:100%; padding:2%; display: none; text-align:center; color:#fff !important; z-index:2;} 
+.col-md-2 {padding: 0; margin: 0 5px; width: 15.6667%;} 
+.col-md-2 h2 {font-family:  'museo500'; font-size: 16px; line-height: 24px; color: #000000; padding: 4px 0 0 4px !important; margin: 0;}
+ 
+.welCon  {width: 100%; float: left; text-align: center; margin: 0 0 25px 0;}
+.welCon h1 {font-family:  'museo500'; font-size: 25px; line-height: 24px; color: #000000; padding: 25px 0 0 0 !important; text-transform: uppercase;  }
+.welLine {margin: 0 30%; height: 38px; width: 40%; background: url(../images/icon5.png) no-repeat center center;}   
+.welCon h2 {font-family:  'museo500'; font-size: 16px; line-height: 24px; color: #000000; padding: 0 !important; margin-top: 10px;  }
+.greenHead {color: #68b60b;} 
+.middle {background: #ccc url(../images/miBackground.jpg) no-repeat left top; clear: both; padding: 25px 0 20px 0; color: #FFF; text-align: center;} 
+.middle1 {background: #4a8800; clear: both; padding: 25px 0 20px 0; color: #FFF; text-align: center;} 
+
+.col-md-4 h2 {font-family:  'museo500'; font-size: 16px; line-height: 24px; color: #fff; padding: 15px 0 12px 0; margin: 0 0 8px 0; border-bottom: 2px solid #a4aa9e; text-transform: uppercase;} 
+.col-md-6 h2, .col-md-3 h2 {font-family:  'museo500'; font-size: 16px; line-height: 24px; color: #fff; padding: 15px 0 12px 0; margin: 0 0 8px 0; border-bottom: 2px solid #a4aa9e; text-transform: uppercase;}  
+ 
+
+.aboutCon  {width: 100%; float: left; margin: 0 0 35px 0; background: url(../images/probg.png) repeat left top; padding: 0 4% 30px 4%;}
+.aboutCon h1 {font-family:  'museo500'; font-size: 25px; line-height: 24px; color: #000000; padding: 25px 0 12px 0 !important; text-transform: uppercase; border-bottom: 1px solid #68b60b;}
+.aboutCon h2 {font-family:  'museo500'; font-size: 16px; line-height: 24px; color: #68b60b; padding: 0 !important; }
+.aboutCon h3 {font-family:  'museo500'; font-size: 22px; line-height: 24px; color: #000000; padding: 25px 0 12px 0 !important; text-transform: none; border-bottom: 1px solid #68b60b;}
+
+
+.innerCon {background-color: #FFF;} 
+.innerCon img {float: left; margin: 10px 10px 10px 0;} 
+.globalCon  h4 {font-family:  'museo500'; font-size: 20px; line-height: 24px; color: #68b60b; padding: 15px 0 15px 70px; background: url(../images/icon4.png) no-repeat left center; margin: 10px 0 5px 0;}  
+.globalCon a {color: #68b60b;}
+ 
+#social:hover {-webkit-transform:scale(1.1); -moz-transform:scale(1.1); -o-transform:scale(1.1); }
+#text-center h4 {font-family:  'museo500'; float: left; font-size: 20px; line-height: 24px; color: #68b60b; padding: 15px 0 15px 70px; background: url(../images/icon4.png) no-repeat left center; margin: 10px 0 5px 0;}  
+
+#social {-webkit-transform:scale(0.8);/* Browser Variations: */ padding: 15px 0 0 0;
+-moz-transform:scale(0.8); -o-transform:scale(0.8); -webkit-transition-duration: 0.5s; -moz-transition-duration: 0.5s; -o-transition-duration: 0.5s;}           
+/*  Only Needed in Multi-Coloured Variation*/
+.social-fb {color: #3B5998;}
+.social-fb:hover {color: #3B5998;}
+.social-tw {color: #4099FF;}
+.social-tw:hover {color: #4099FF;}
+.social-gp {color: #d34836;}
+.social-gp:hover {color: #d34836;}
+.social-em:hover {color: #f39c12;}
+.follow {margin: 20px 30px 0 90px; float: left; color: #484848; font-family:  'museo500'; font-size: 14px; text-transform: uppercase;}
+.footer {float: left; width: 100%; background-color: #ebebeb; color: #404040; font-family: 'open_sansregular'; font-size: 12px; margin: 0; padding: 25px 0 12px 0; }
+.footLBM a {color: #5ba701;}
+.list-group {padding-left: 15px; line-height: 30px;} 
+.proMenu{width:100%; float:left; margin:15px 0 25px 0; padding: 0;}
+.proMenu li{float:left; list-style: none;  background-color: #63ae0a; margin: 0 2px 0 0;}
+.proMenu a{font-family: 'museo500'; text-transform:uppercase; font-size:16px; color:#FFF; text-decoration:none; padding:12px 30px; display:block; }
+.proMenu a:hover{background:#6fc00e;}
+.full{width:100%; height:auto;}
+
+.video-container {
+	position:relative;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
+	width: 53%;
+   min-height: 161px;
+   float:right;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+} 
+.footer h3 {
+	font-size: 20px;
+	margin-top: -9px;
+	text-align: right;
+	margin-right: -50px;
+	color: green;
+}
+ 
+
+.enquiryCon {float: left; width: 100%; margin: 65px 0 0 0; background-color: #363839; padding: 25px 0; font-family: 'latoregular'; color: #818688; }
+.compInfo {float: left; padding: 0 5% 0 0;  margin: 20px 0 20px 0;}
+.imgbox {padding: 0 0 20px 0;}
+ 
+.tWidth{width:100px; float:left;}
+.enquiryBtn {margin: 10px 0 0 100px;}
+.textBox{width:250px; height:28px; background:#fff; border:solid 1px #e8e8e8; color:#000; font-size:13px;}
+.textBoxMulti {width: 250px; height: 100px; background: #fff; border: solid 1px #e8e8e8; color:#000; font-size:13px;}
+.tred{color:#C00;}
+
+.contleft {background:#64af0a; color: #fff; padding:24px 2.5% 0 2.5%; margin: 35px 0 20px 0;  }
+.contleft h4 {font-size: 25px; font-family:  'museo500'; text-transform: none; color: #fff; margin: 0 0 20px 0; padding: 0 0 10px 0; border-bottom: 1px solid #e2e2e2; }
+.contleft h5 {font-size: 17px; font-family:  'museo500'; text-transform: none; color: #fff; margin: 0 0 12px 0;  }
+.contleft a {color: #fff;}
+.contleft hr { border-bottom: 1px solid #64af0a;}
+.contactbtn {padding: 9px 13px; margin: 0 0 20px 0; font-size: 11px; color: #fff; border-radius: 0px; background-color: #68b60b; border: 1px solid #68b60b;} 
+.contactbtn:hover {background-color: #85c33b;  border: 1px solid #85c33b; color: #fff; }
+
+ 
+@media screen and (max-width:1200px) {
+.container {width: 90%;}
+.solink {margin: 10px 15px 0 0; width: 35%;}
+.follow {margin: 20px 30px 0 0; }
+}
+@media screen and (max-width:1176px) {
+.col-md-2 {float: left; width: 14.8887%;} 
+.col-md-2 h2 { font-size: 14px; }
+}
+
+@media screen and (max-width:1065px) {
+.middle { background: none; background-color: #518f06;} 
+.solink {margin: 10px 15px 0 0; width: 33%;}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {font-size: 13px;}
+.navbar-default .navbar-nav>li>a {font-size: 13px;}
+.nav>li>a { padding: 12px 10px 10px 10px}
+}
+@media screen and (max-width:989px) {
+.follow {margin: 20px 30px 0 40px;  }
+.footer h3 {
+	font-size: 20px;
+	margin-top: 12px;
+	text-align: left;
+	margin-right: -50px;
+	color: green;
+}
+.video-container{ float:none;}
+}
+
+@media screen and (max-width:870px) {
+.navbar-brand img {width: 70% !important; height: auto; background-size: 100% 100%;}
+.navbar {padding: 0; }
+.navbar-collapse {width: 100%; margin: 50px 0 0 0; border-top: 1px solid #000; padding: 0; }
+.navbar {margin: 20px 0 20px;}
+.nav>li>a { padding: 12px 20px 10px 20px}
+.solink {margin: 10px 15px 0 0; width: 35%;}
+
+	
+  }
+@media screen and (max-width:766px) {
+.navbar-collapse {width: 100%; margin: 30px 0 0 0 ; border-top: 1px solid #000; padding: 0; }
+.solink {display: none;}
+}
+@media screen and (max-width:692px) {
+.col-md-2 {float: left; width: 13.8887%;} 
+.col-md-2 h2 { font-size: 12px; }
+}
+@media screen and (max-width:617px) {
+.col-md-2 {float: left; width: 30% !important;} 
+.footer h3{font-size: 15px;}
+ }
+@media screen and (max-width:400px) {
+.col-md-2 {float: left; width: 45% !important;} 
+.follow {margin: 20px 30px 0 40px;}
+.video-container{ width:100%;}
+ }
+@media screen and (max-width:289px) {
+.col-md-2 {float: left; width: 100% !important; text-align: center;}
+.footer h3{font-size: 13px;} 
+ }
+
+ 
+
+
+
+
+<!--.header, .middle, .footTop, .footer, .innerHeader-->
